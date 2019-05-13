@@ -1,26 +1,26 @@
-ltv 2
-0:01 | 파리로 가는 비행기 안 | on the airplane going to paris!
-0:03 | 피디 - (땅콩) 맛있어? | PD - are the peanuts delicious?
-0:05 | 희진 - 여러개 받아 놀을 걸 그랬어요~ | I should have asked for more peanuts
-0:08 | 땅콩 다 먹고 독서중... | She finished all the peanuts and now she's reading a book
-0:12 | 희진 - 안녕!~ | Heejin - Hello~
-0:14 | 희진 - 지금 3시간 45분 뒤면 내려요~ | Heejin - I'm going to land after 3 hours and 45 minutes.
-0:18 | 희진 - 장시간 비행은 역시 힘듭니다! | Heejin - As always, a long distance flight is really tough!
-
-Vocabulary
-파리 | Paris | NOUN |
-땅콩 | Peanuts | NOUN |
-여러개 | Several | NOUN |
-시간 |  Hour | NOUN |
-분 | Minute | NOUN |
-비행기 | Flight | NOUN |
-독서 | Reading (the act of reading) | NOUN |
-역시 | too | ADVERB
-힘들다 | To be hard/difficult | VERB |
-내리다 | To come down/To land | VERB |
-받다 | To receive | VERB |
-먹다 | To eat | VERB |
-있다 | to be, to exist | VERB |
-놓다 | to put | VERB |
-맛있다 | to be delicious | EXPR | https://talktomeinkorean.com/lessons/l1l12/ 
-ㄹ/을걸 그랬다 | to should have | EXPR | https://www.howtostudykorean.com/unit-5/lessons-109-116/lesson-115/
+이달의 소녀 탐구 2 - LOONA TV #2|Heejin|https://www.youtube.com/watch?v=Lj4XwjWw4CA#t=|LINK
+파리로 가는 비행기 안|on the airplane going to paris!|0m01s|QUOTE
+피디 - (땅콩) 맛있어?|PD - are the peanuts delicious?|0m03s|QUOTE
+희진 - 여러개 받아 놀을 걸 그랬어요~|I should have asked for more peanuts|0m05s|QUOTE
+땅콩 다 먹고 독서중...|She finished all the peanuts and now she's reading a book|0m08s|QUOTE
+희진 - 안녕!~|Heejin - Hello~|0m12s|QUOTE
+희진 - 지금 3시간 45분 뒤면 내려요~|Heejin - I'm going to land after 3 hours and 45 minutes.|0m14s|QUOTE
+희진 - 장시간 비행은 역시 힘듭니다!|Heejin - As always, a long distance flight is really tough!|0m18s|QUOTE
+파리|Paris|NOUN|DEFINITION
+땅콩|Peanuts|NOUN|DEFINITION
+여러개|Several|NOUN|DEFINITION
+시간|Hour|NOUN|DEFINITION
+분|Minute|NOUN|DEFINITION
+비행기|Flight|NOUN|DEFINITION
+독서|Reading (the act of reading)|NOUN|DEFINITION
+역시|too|ADVERB|DEFINITION
+가다|to go|VERB|DEFINITION
+힘들다|To be hard/difficult|VERB|DEFINITION
+내리다|To come down/To land|VERB|DEFINITION
+받다|To receive|VERB|DEFINITION
+먹다|To eat|VERB|DEFINITION
+있다|to be, to exist|VERB|DEFINITION
+놓다|to put|VERB|DEFINITION
+맛있다|to be delicious|EXPRESSION|https://talktomeinkorean.com/lessons/l1l12/ 
+가는|to be on the way|EXPRESSION|DEFINITION
+ㄹ/을걸 그랬다|to should have|EXPRESSION| https://www.howtostudykorean.com/unit-5/lessons-109-116/lesson-115/

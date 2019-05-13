@@ -1,4 +1,4 @@
-이달의소녀 탐구 3| LOONA TV 3 | https://www.youtube.com/watch?v=Py4ZgM9wY10 | LINK 
+이달의소녀 탐구 3 - LOONA TV 3|Heejin|https://www.youtube.com/watch?v=Py4ZgM9wY10#t=|LINK
 어느새 프리에 도착한 이달의 소녀 희진|Heejin just arrived at Paris!|0m01s|QUOTE
 희진 - 숙소로~ 갑니다~ 드디어!|Finally~ We're going to~ our Hotel!|0m03s|QUOTE
 희진 - 말도 안돼~~~~!!!|Heejin - It's unbelieviable!|0m06s|QUOTE 
@@ -10,14 +10,16 @@
 숙소|Hotel/Lodging|NOUN|DEFINITION 
 창문|Window|NOUN|DEFINITION
 에팔탑|Eiffel Tower|NOUN|DEFINITION
+지금|now, currently|NOUN|DEFINITION
 진짜|Really (also used as exclamation)|ADVERB|DEFINITION 
 어느새|quickly, so soon, already|ADVERB|DEFINITION 
 드디어|finally|ADVERB|DEFINITION 
 가다|to go|VERB|DEFINITION 
 말다|to say|VERB|DEFINITION 
 보다|to see|VERB|DEFINITION 
-도착하다|to arrive|verb|DEFINITION
-대박|awesome, incredible|EXPR|DEFINITION
-어떡해|what do I do?|EXPR|DEFINITION
-말도 안되다|unbelieviable (lit: I can't say anything)|EXPR|DEFINITION
-말이 안오다|be at a loss for words|EXPR|DEFINITION
+도착하다|to arrive|VERB|DEFINITION
+대박|awesome, incredible|EXPRESSION|DEFINITION
+어떡해|what do I do?|EXPRESSION|DEFINITION
+보이는|visible|EXPRESSION|DEFINITION
+말도 안되다|unbelieviable (lit: I can't say anything)|EXPRESSION|DEFINITION
+말이 안오다|be at a loss for words|EXPRESSION|DEFINITION

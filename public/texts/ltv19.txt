@@ -1,0 +1,32 @@
+이달의 소녀 탐구 19 - LOONA TV 19|Hyunjin|https://www.youtube.com/watch?v=zhP8gNzI1no#t=|LINK
+이달의 소녀 현진의 일본 숙소!|Hyunjin of LOONA's Japanese Hotel!|0m01s|QUOTE
+굿모닝~|Good morning!|0m04s|QUOTE
+(아침)6시48분 입니다.|It's 6:48 am|0m07s|QUOTE
+춥게 잤나봐요...|I think it was cold when I was sleeping...|0m09s|QUOTE
+감기 걸린 와중에도 초코렛을 먹는...|Even though she has a cold, she is eating chocolate...|0m12s|QUOTE
+조금 있다 조식 먹으러 가요~|I'm going to get breakfast in a few minutes!|0m17s|QUOTE
+뭐 나올지 궁금해요|I wonder what what the menu is...|0m20s|QUOTE
+고기 나왔으면 좋겠다...|It would be great if there is meat|0m22s|QUOTE
+6(다셧)|Six|NUMBER|DEFINITION
+48(사십팔)|forty-eight|NUMBER|DEFINITION
+일본|Japan|NOUN|DEFINITION
+속소|Hotel|NOUN|DEFINITION
+분|minute|NOUN|DEFINITION
+시|hour|NOUN|DEFINITION
+감기|cold|NOUN|DEFINITION
+조식|breakfast|NOUN|DEFINITION
+고기|meat|NOUN|DEFINITION
+조금|a little|ADVERB|DEFINITION
+먹다|to eat|VERB|DEFINITION
+춥다|to be cold|VERB|DEFINITION
+자다|to sleep|VERB|DEFINITION
+궁금하다|to be curious|VERB|DEFINITION
+뭐|what|INTERROGATIVE|DEFINITION
+V으면 좋겠다|I wish V happens|EXPRESSION|DEFINITION
+V으러 가다|to go to do V|EXPRESSION|DEFINITION
+초코랫|chocolate|EXPRESSION|DEFINITION
+와중에도|in the middle of something|EXPRESSION|DEFINITION
+감기 걸리다|To catch a cold|EXPRESSION|DEFINITION
+V게|turns into an adverb (-ly)|EXPRESSION|DEFINITION
+N 나와요|for N to to come/serve|EXPRESSION|DEFINITION
+굿모닝|good morning|EXPRESSION|DEFINITION
