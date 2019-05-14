@@ -22,14 +22,34 @@ while i is not loopNumber+1:
 		df = pd.read_csv(fileName, sep = "|", header = None, encoding = "utf-8")
 		outputText+="{"
 		df.columns = ltvCol
+		#slice the Df by grouping it by "LINK"
 		linkDf = df[df.type == "LINK"]
 		headers = [tuple(x) for x in linkDf.values]
 		outputText += '"title": ' + '"' + headers[0][0] +'",'
 		outputText += '"member": ' + '"' + headers[0][1] +'",'
 		outputText += '"link": ' + '"' + headers[0][2] +'",'
-		print(outputText)
-		
+		#slice DF now by grouping it by "QUOTE"
+		quoteDf = df[df.type == "QUOTE"]
+		headers = [tuple(x) for x in quoteDf.values]
+		outputText += '"quotes":['
+		for x in headers:
+			outputText += '{"korean": ' + '"' + x[0] + '",'
+			outputText += '"translation": ' + '"' + x[1] + '",'
+			outputText += '"timestamp": ' + '"' + x[2] + '"},'
+		outputText = outputText[:len(outputText)-1]
+		outputText += "],"
+		#lastly slice for "DEFINITION"
+		quoteDf = df[df.type == "DEFINITION"]
+		headers = [tuple(x) for x in quoteDf.values]
+		outputText += '"definitions":['
+		for x in headers:
+			outputText += '{"korean": ' + '"' + x[0] + '",'
+			outputText += '"translation": ' + '"' + x[1] + '",'
+			outputText += '"pos": ' + '"' + x[2] + '"},'
+		outputText = outputText[:len(outputText)-1]
+		outputText += "]"
 		outputText +="},"
+	#excepting if it doesn't exist, this is for me to text other LTVS out of sequence
 	except FileNotFoundError:
 		print("File doesn't exist... going to next file.")
 		#print(fileName)
