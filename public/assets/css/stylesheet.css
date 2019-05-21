@@ -1,5 +1,164 @@
+.navbar-default {
+  background-color: #46c7cc;
+  border-color: #28b4b9;
+}
+.navbar-default .navbar-brand {
+  color: #ecf0f1;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: #6f5390;
+}
+.navbar-default .navbar-text {
+  color: #ecf0f1;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #ecf0f1;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #6f5390;
+}
+.navbar-default .navbar-nav > li > .dropdown-menu {
+  background-color: #46c7cc;
+}
+.navbar-default .navbar-nav > li > .dropdown-menu > li > a {
+  color: #ecf0f1;
+}
+.navbar-default .navbar-nav > li > .dropdown-menu > li > a:hover,
+.navbar-default .navbar-nav > li > .dropdown-menu > li > a:focus {
+  color: #6f5390;
+  background-color: #28b4b9;
+}
+.navbar-default .navbar-nav > li > .dropdown-menu > li > .divider {
+  background-color: #28b4b9;
+}
+.navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+.navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+.navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+  color: #6f5390;
+  background-color: #28b4b9;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #6f5390;
+  background-color: #28b4b9;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+  color: #6f5390;
+  background-color: #28b4b9;
+}
+.navbar-default .navbar-toggle {
+  border-color: #28b4b9;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: #28b4b9;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #ecf0f1;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: #ecf0f1;
+}
+.navbar-default .navbar-link {
+  color: #ecf0f1;
+}
+.navbar-default .navbar-link:hover {
+  color: #6f5390;
+}
+@media (max-width: 767px) {
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #ecf0f1;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #6f5390;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #6f5390;
+    background-color: #28b4b9;
+  }
+}
+
+.pdf-container{
+	margin: auto;
+	width: 50%;
+	height: 750px;
+}
+
+.justified-text{
+	text-align:justify;
+}
+
+.title{
+	font-size: 30px;
+	color: #ffffff
+}
+
+.centered-image{
+	text-align:center;
+	/padding-top: 100px;
+	width: 50%;
+	margin: auto;
+}
+
+.centered-text{
+	text-align:center;
+}
+
+.column {
+	float: left;
+	width: 33.33%;
+	padding: 10px;
+}
+
+.video{
+	padding-top: 4%;
+	width: 66.6%;
+	float: right;
+}
+
+.video iframe{
+	width: 79%;
+	height: 79%;
+	position: absolute;
+	left: 21%;
+}
+
+.textColumn{
+	height: 90%;
+	width: 20%;
+	overflow-y: scroll;
+	position: absolute;
+	float: left;
+}
+
+img
+{
+	width: 50%;
+	margin: auto;
+}
+
 body {
-  text-align: center;
-  color: #ffffff;
-  background-color: #000000;
+	padding-top: 30px 
+	font-family: "Segoe UI" !important;
+	text-align: center;
+	color: #ffffff;
+	background-color: #000000;
+}
+
+h1{
+	font-size: 44px;
+}
+
+p
+{
+	font-size: 16px;
 }

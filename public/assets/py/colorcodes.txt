@@ -1,0 +1,15 @@
+heejin:#e83e8c;
+hyunjin: #ffc107;
+haseul: #28a745;
+yeojin: #fd7e14;
+
+vivi: #fca3b4;
+
+kimlip: #fd4442;
+jinsoul: #6610f2;
+choerry: #be00ff;
+
+chuu: #f6917d;
+yves: #782640;
+gowon: #20c997;
+ohye: #343a40;
