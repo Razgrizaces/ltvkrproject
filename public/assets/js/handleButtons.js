@@ -37,13 +37,13 @@ $("#songs").change(function(){
 
 //AJAX methods to populate the dropdowns 
 
-function AJAXPopulateArtists()
+function AJAXPopulateMembers()
 {
 	//get a reference to the select element
-	$artistPicker = $('#artist');
+	$artistPicker = $('#');
 	//request the JSON data and parse into the select element
 	$.ajax({
-	  url: '../assets/json/kpoplyrics.json',
+	  url: 'text.json',
 	  dataType:'json',
 	  success:function(data){
 		$artistPicker.append('<option id="Select">-- Select an Artist --</option>');
