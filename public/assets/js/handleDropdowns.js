@@ -66,8 +66,6 @@ function AJAXPopulateMembers()
 	});
 }
 
-$.fn.selectpicker.Constructor.BootstrapVersion = '4';
-
 $(document).ready(function() {
 	AJAXPopulateMembers();
-};
+});
