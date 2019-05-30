@@ -9,25 +9,38 @@ function displayElement(fileName, divLocation)
 }
 
 $("#member").change(function(){
-	$("#ltv").empty();
+	$("#ltvs").empty();
 	AJAXPopulateLTVs();
 	$("#member").trigger("chosen:updated");
-})
+});
 
 function AJAXPopulateLTVs()
 {
 	//reference the selected element
-	$LTVPicker = $('#ltv');
+	$LTVPicker = $('#ltvs');
+	memberId = 0;
+	ltvId = 0;
 	//request json data and parse into the selected element
 	$.ajax({
 	  url: '../assets/json/text.json',
 	  dataType:'json',
 	  success:function(data){
-		$LTVPicker.append('<option id="Select">-- Select the LTV --</option>');
-		//iterate over the data and append a select option
-		$_.each(data.arcs,function(key, ltvVal){
-			$LTVPicker.append('<option id="' + ltvVal.id + '">' + ltvVal.name + '</option>');
-		})
+			$LTVPicker.append('<option id="Select">-- Select the Arc --</option>');
+			$.each(data.arcs, function(key, val){
+			//find the correct member/arc
+			if(data.arcs[key].member === $("#member option:selected").text()){return;}
+			memberId++;
+			})
+			console.log(memberId);
+			if(data.arcs[memberId] !== undefined){
+				$.each(data.arcs[memberId].ltvs, function(key, ltvVal){
+					console.log(ltvVal.title);
+					$LTVPicker.append('<option id="' + ltvId + '">' + ltvVal.title + '</option>');
+					console.log($LTVPicker)
+					ltvId++;
+				})
+			}
+		$('.selectpicker').selectpicker('refresh');
 	  },
 	  error:function(){
 		//if there is an error append a 'none available' option
@@ -48,15 +61,16 @@ function AJAXPopulateMembers()
 	  dataType:'json',
 	  
 	  success:function(data){
-			$memberPicker.append('<option id="Select">-- Select the Arc --</option>');
-		  $.each(data.arcs, function(key, ltvVal){
-				if(currentMember !== data.arcs[key].member)
-				{
-					currentMember = data.arcs[key].member;
-					$memberPicker.append('<option id="' +id+ '">' +data.arcs[key].member+ '</option>');
-					console.log(data.arcs[key].member);
-					id++;
-				}
+		$memberPicker.append('<option id="Select">-- Select the Arc --</option>');
+		$.each(data.arcs, function(key, ltvVal){
+			if(currentMember !== data.arcs[key].member)
+			{
+				currentMember = data.arcs[key].member;
+				$memberPicker.append('<option id="' +id+ '">' +data.arcs[key].member+ '</option>');
+				console.log(data.arcs[key].member);
+				id++;
+				console.log($memberPicker)
+			}
 		})
 	  },
 	  error:function(){

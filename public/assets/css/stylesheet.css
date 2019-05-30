@@ -2,11 +2,10 @@
 	color: #ffffff;
 }
 
-.btn-primary{
+.btn-primary, .dropdown-toggle, .dropdown-item, .dropdown-search, .bs-searchbox, .bs-actionsbox .bootstrap-select.form-control{
 	color: #ffffff;
 	background-color: #000000;
 }
-
 
 .pdf-container{
 	margin: auto;
