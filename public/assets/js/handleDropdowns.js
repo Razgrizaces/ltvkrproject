@@ -8,9 +8,10 @@ function displayElement(fileName, divLocation)
 	});
 }
 
-$("member").change(function(){
-	$("ltv").empty();
+$("#member").change(function(){
+	$("#ltv").empty();
 	AJAXPopulateLTVs();
+	$("#member").trigger("chosen:updated");
 })
 
 function AJAXPopulateLTVs()
@@ -24,7 +25,7 @@ function AJAXPopulateLTVs()
 	  success:function(data){
 		$LTVPicker.append('<option id="Select">-- Select the LTV --</option>');
 		//iterate over the data and append a select option
-		$.each(arcs.members.title, function(key, ltvVal){
+		$_.each(data.arcs,function(key, ltvVal){
 			$LTVPicker.append('<option id="' + ltvVal.id + '">' + ltvVal.name + '</option>');
 		})
 	  },
@@ -38,11 +39,35 @@ function AJAXPopulateLTVs()
 function AJAXPopulateMembers()
 {
 	//reference the selected element
-	$memberPicker = $("member");
+	$memberPicker = $('#member');
+	currentMember = "";
+	id = 0;
 	//request json data and parse into the selected element
 	$.ajax({
-		console.log(JSON.parse("assets/text.json"))
+	  url: '../assets/json/text.json',
+	  dataType:'json',
+	  
+	  success:function(data){
+			$memberPicker.append('<option id="Select">-- Select the Arc --</option>');
+		  $.each(data.arcs, function(key, ltvVal){
+				if(currentMember !== data.arcs[key].member)
+				{
+					currentMember = data.arcs[key].member;
+					$memberPicker.append('<option id="' +id+ '">' +data.arcs[key].member+ '</option>');
+					console.log(data.arcs[key].member);
+					id++;
+				}
+		})
+	  },
+	  error:function(){
+		//if there is an error append a 'none available' option
+		$memberPicker.html('<option id="-1">none available</option>');
+	  }
 	});
 }
 
-AJAXPopulateMembers();
+$.fn.selectpicker.Constructor.BootstrapVersion = '4';
+
+$(document).ready(function() {
+	AJAXPopulateMembers();
+};
