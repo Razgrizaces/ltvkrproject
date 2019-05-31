@@ -14,6 +14,18 @@ $("#member").change(function(){
 	$("#member").trigger("chosen:updated");
 });
 
+$("#ltvs").change(function(){
+	$("#vid").src = "";
+	$("#text").empty();
+	AJAXPopulatePage();
+	$("#ltvs").trigger("chosen:updated");
+});
+
+function AJAXPopulatePage()
+{
+	console.log("Populate page...");
+}
+
 function AJAXPopulateLTVs()
 {
 	//reference the selected element
@@ -25,7 +37,7 @@ function AJAXPopulateLTVs()
 	  url: '../assets/json/text.json',
 	  dataType:'json',
 	  success:function(data){
-			$LTVPicker.append('<option id="Select">-- Select the Arc --</option>');
+			$LTVPicker.append('<option id="Select">-- Select the LTV --</option>');
 			$.each(data.arcs, function(key, val){
 			//find the correct member/arc
 			if(data.arcs[key].member === $("#member option:selected").text()){return;}

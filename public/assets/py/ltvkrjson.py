@@ -67,5 +67,5 @@ while i is not loopNumber+1:
 outputText = outputText[:len(outputText)-1]
 outputText += "]}]}"
 #print(outputText)
-with io.open("..\\text.json", "w", encoding="utf-8") as f:
+with io.open("..\\json\\text.json", "w", encoding="utf-8") as f:
 	f.write(outputText)
