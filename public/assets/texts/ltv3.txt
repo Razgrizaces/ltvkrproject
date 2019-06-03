@@ -1,22 +1,22 @@
-#3|Heejin|https://www.youtube.com/watch?v=Py4ZgM9wY10#t=|LINK
+#3|Heejin|https://www.youtube.com/embed/Py4ZgM9wY10?start=0|LINK
 어느새 프리에 도착한 이달의 소녀 희진|Heejin just arrived at Paris!|0m01s|QUOTE
 희진 - 숙소로~ 갑니다~ 드디어!|Finally~ We're going to~ our Hotel!|0m03s|QUOTE
-희진 - 말도 안돼~~~~!!!|Heejin - It's unbelieviable!|0m06s|QUOTE 
-숙소 창문에서 바로 보이는 에펠탑!|The Eiffel Tower is visible through the window of the hotel!|0m07s|QUOTE 
-희진 - 진짜 대박이에요~|Heejin - It's really amazing~|0m09s|QUOTE 
+희진 - 말도 안돼~~~~!!!|Heejin - It's unbelieviable!|0m06s|QUOTE
+숙소 창문에서 바로 보이는 에펠탑!|The Eiffel Tower is visible through the window of the hotel!|0m07s|QUOTE
+희진 - 진짜 대박이에요~|Heejin - It's really amazing~|0m09s|QUOTE
 희진 - 어떡해...|Heejin - What do I do... |0m12s|QUOTE
-희진 - 진짜 저 지금 말이 안아와요|I really don't know what I should say...|0m14s|QUOTE 
+희진 - 진짜 저 지금 말이 안아와요|Heejin - I really don't know what I should say...|0m14s|QUOTE
 파리|Paris|NOUN|DEFINITION
-숙소|Hotel/Lodging|NOUN|DEFINITION 
+숙소|Hotel/Lodging|NOUN|DEFINITION
 창문|Window|NOUN|DEFINITION
 에팔탑|Eiffel Tower|NOUN|DEFINITION
 지금|now, currently|NOUN|DEFINITION
-진짜|Really (also used as exclamation)|ADVERB|DEFINITION 
-어느새|quickly, so soon, already|ADVERB|DEFINITION 
-드디어|finally|ADVERB|DEFINITION 
-가다|to go|VERB|DEFINITION 
-말다|to say|VERB|DEFINITION 
-보다|to see|VERB|DEFINITION 
+진짜|Really (also used as exclamation)|ADVERB|DEFINITION
+어느새|quickly, so soon, already|ADVERB|DEFINITION
+드디어|finally|ADVERB|DEFINITION
+가다|to go|VERB|DEFINITION
+말다|to say|VERB|DEFINITION
+보다|to see|VERB|DEFINITION
 도착하다|to arrive|VERB|DEFINITION
 대박|awesome, incredible|EXPRESSION|DEFINITION
 어떡해|what do I do?|EXPRESSION|DEFINITION

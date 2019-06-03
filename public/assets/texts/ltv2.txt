@@ -1,4 +1,4 @@
-#2|Heejin|https://www.youtube.com/watch?v=Lj4XwjWw4CA#t=|LINK
+#2|Heejin|https://www.youtube.com/embed/Lj4XwjWw4CA?start=0|LINK
 파리로 가는 비행기 안|on the airplane going to paris!|0m01s|QUOTE
 피디 - (땅콩) 맛있어?|PD - are the peanuts delicious?|0m03s|QUOTE
 희진 - 여러개 받아 놀을 걸 그랬어요~|I should have asked for more peanuts|0m05s|QUOTE
@@ -21,6 +21,6 @@
 먹다|To eat|VERB|DEFINITION
 있다|to be, to exist|VERB|DEFINITION
 놓다|to put|VERB|DEFINITION
-맛있다|to be delicious|EXPRESSION|https://talktomeinkorean.com/lessons/l1l12/ 
+맛있다|to be delicious|EXPRESSION|DEFINITION
 가는|to be on the way|EXPRESSION|DEFINITION
-ㄹ/을걸 그랬다|to should have|EXPRESSION| https://www.howtostudykorean.com/unit-5/lessons-109-116/lesson-115/
+ㄹ/을걸 그랬다|to should have|EXPRESSION|DEFINITION

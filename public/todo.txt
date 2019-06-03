@@ -1,0 +1,4 @@
+@TODO
+detect link click, replace SRC if it is clicked on the
+add the analysis using pandas to analyze the most commonly used words
+when analysis tab is clicked clear everything and create a table similar to before
