@@ -21,6 +21,55 @@ $("#ltvs").change(function(){
 	$("#ltvs").trigger("chosen:updated");
 });
 
+
+var tag = document.createElement('script');
+
+tag.src = "https://www.youtube.com/iframe_api";
+var firstScriptTag = document.getElementsByTagName('script')[0];
+firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+// 3. This function creates an <iframe> (and YouTube player)
+//    after the API code downloads.
+var player;
+
+
+function onYouTubeIframeAPIReady() {
+	player = new YT.Player('vid', {
+		videoId: '',
+		events: {
+			'onReady': onPlayerReady,
+			'loadLTV': loadLTV
+		}	
+	});
+}
+// 4. The API will call this function when the video player is ready.
+function onPlayerReady(event) {
+	player.setSize(
+}
+
+// 5. The API calls this function when the player's state changes.
+//    The function indicates that when playing a video (state=1),
+//    the player should play for six seconds and then stop.
+var done = false;
+
+function loadLTV(e) {
+    var href;
+    var target = e.target || e.srcElement;
+    if (target.tagName === 'A') {
+        href = target.getAttribute('href');
+		//tell the browser not to respond to the link click
+		e.preventDefault();
+		console.log(href);
+    }
+}
+
+//listen for link click events at the document level
+if (document.addEventListener) {
+    document.addEventListener('click', loadLTV);
+} else if (document.attachEvent) {
+    document.attachEvent('onclick', loadLTV);
+}
+
 function AJAXPopulatePage()
 {
 	$.ajax({
@@ -42,7 +91,8 @@ function AJAXPopulatePage()
 			$("#text").append("<table>");
 			$("#text").append("<tr><th>Quotes</th><th>Translation</th></tr>");
 			$.each(data.arcs[memberID].ltvs[LTVId-1].quotes, function(key, val){
-				$("#text").append("<tr><th>"+val.korean+"</th><th>"+val.translation+"</th></tr>");
+				var timestampLink = data.arcs[memberID].ltvs[LTVId-1].link + val.timestamp
+				$("#text").append("<tr><th><a href=" + timestampLink + ">"+val.korean+"</a></th><th><a href=" + timestampLink + ">" +val.translation + "</a></th></tr>");
 			})
 			$("#text").append("</table>");
 			
@@ -54,7 +104,9 @@ function AJAXPopulatePage()
 				$("#text").append("<tr><th>"+val.korean+"</th><th>"+val.translation+"</th><th>"+val.pos+"</th></tr>");
 			})
 			$("#text").append("</table>");
-			$("#vid iframe").prop("src", data.arcs[memberID].ltvs[LTVId-1].link);
+			
+			//YT Player stuff to add the video
+			player.loadVideoById(data.arcs[memberID].ltvs[LTVId-1].link, 0, "default");
 		},
 		error:function(){
 			//if there is an error append a 'none available' option

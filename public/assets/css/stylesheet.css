@@ -41,15 +41,13 @@
 
 .video{
 	padding-top: 7%;
-	width: 55%;
+	width: 36%;
+	height: auto
 	float: right;
+	position: absolute;
 }
 
 .video iframe{
-	width: 63%;
-	height: 63%;
-	position: absolute;
-	left: 36%;
 }
 
 .textColumn{
@@ -92,4 +90,10 @@ h1{
 p
 {
 	font-size: 18px;
+}
+
+a
+{
+	font-size: 18px;
+	color: #ffffff;
 }
